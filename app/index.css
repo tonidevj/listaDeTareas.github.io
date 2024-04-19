@@ -10,7 +10,9 @@
 /* este es el cuerpo y la fuenta  */
 
 body {
-background-color: #0d1d3b;
+    min-height: 100vh;
+    background: linear-gradient(20deg, rgb(4, 1, 170), rgb(167, 28, 28) );
+    overflow: hidden;
 }
 
 /* este es el titulo  */
@@ -28,7 +30,7 @@ h1{
 
 
 #container-max{
-    background-color: #3a5b91;
+    background: linear-gradient(70deg, rgb(255, 178, 168), rgb(114, 140, 155) );;
     border-radius: 0.5rem ;
     display: flex;
     flex-direction: column;
@@ -69,13 +71,13 @@ input{
   border-radius: 50%;
   color: aliceblue;
   font-size: 25px;
-  background-color: #9349d8;
+  background: linear-gradient( rgb(255, 24, 255), rgb(141, 59, 114) );
   cursor: pointer;
   margin-right: 4%;
 }
 
 .buttonAdd:hover {
-    background-color: #005D5D;
+    background: #892896;
 }
 
 /* ahora vamos con las listas  */
@@ -114,17 +116,25 @@ li {
 }
 
 .button1{
-    background-color: red;
+    background: linear-gradient( rgb(189, 33, 33), rgb(124, 6, 6) ) ;
     color: aliceblue;
     border: 1px solid #494848;
     cursor: pointer;
 }
 
+.button1:hover{
+    background: linear-gradient( rgb(100, 6, 6), rgb(255, 0, 0) );
+}
+
 .button2 {
-    background-color: green;
+    background: linear-gradient( rgb(22, 231, 67), rgb(19, 134, 9) );
     color: whitesmoke;
     border-left: 1px solid #494848 ;
 
+}
+
+.button2:hover{
+    background: linear-gradient( rgb(243, 255, 71), rgb(76, 150, 28) );
 }
 
 ul#list li.completed p {
@@ -141,21 +151,21 @@ ul#list li.completed p {
 
 .completes{
     padding: 10px;
-    background-color: #005D5D;
+    background:linear-gradient( rgb(75, 197, 160), rgb(24, 139, 130) );
     margin: 10px;
     border-radius: 5px;
 }
 
 .incompletes{ 
     padding: 10px;
-    background-color: #FF5252;
+    background: linear-gradient( rgb(247, 71, 71), rgb(165, 41, 41) );
     margin: 10px;
     border-radius: 5px;
 }
 
 .total{
     padding: 10px;
-    background-color: #00E676;
+    background: linear-gradient( rgb(56, 248, 82), rgb(4, 167, 31) );
     margin: 10px;
     border-radius: 5px;
   }
